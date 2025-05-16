@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<!-- fui: entitlement {% for k, v in cookiecutter.options.macos_entitlements.items() %} -->
+		<key>{{ k }}</key>
+		<!-- fui: True {% if v == True %} -->
+		<true />
+		<!-- fui: False {% elif v == False %} -->
+		<false />
+		<!-- fui: end of entitlement {% endif %} {% endfor %} -->
+	</dict>
+</plist>
