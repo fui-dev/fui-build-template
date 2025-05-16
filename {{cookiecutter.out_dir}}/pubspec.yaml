@@ -12,7 +12,8 @@ dependencies:
     sdk: flutter
 
   serious_python: 0.8.3
-  fui: 1.0.0 # Add Fui Packages And Extensions Is Done From Local Dart Fui Packages On The User System
+  # Add Fui Packages And Extensions Is Done From Local Dart Fui Packages On The User System
+  # (Note): If you want the process of adding Fui packages to be done automatically, do not add any modules here.
   
   path: ^1.9.0
   url_strategy: ^0.2.0
